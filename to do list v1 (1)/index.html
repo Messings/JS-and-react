@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My todo list</title>
+  </head>
+  <body>
+    <h1 style="font-family:sans-serif">My todo list</h1>
+
+    <p id="myP1"></p>
+    <ul id="myList"></ul> 
+
+    <label for="newTaskBox"> Add a new task </label> <br>
+    <input type="text" id="newTaskBox">
+    <button type="submit" id="submitTask">Add New Task</button> <br> <br> 
+
+    <label for="deleteTaskBox"> Delete a task from its id</label> <br> 
+    <input type="number" id="deleteTaskBox">
+    <button type="submit" id="deleteTask">Delete Task</button> <br> <br> 
+
+    <label for="editTaskBox"> Edit a  task from its id</label> <br>
+    Add id number here:<input type="number" id="editTaskBoxId"><br> <br>
+
+    Add id number here: <input type="text" id="editTaskBoxText"> 
+    <button type="submit" id="editTaskBtn">Edit chosen Task</button>
+
+
+    
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
