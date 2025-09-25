@@ -1,1 +1,1 @@
-Lost? Head over to `/src/main.ts`!
+very simple habit tracker, also very unfinished
